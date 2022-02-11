@@ -35,3 +35,4 @@ fun3(() => {
     console.log('anonymous function'); 
 });
 
+
