@@ -36,4 +36,15 @@ fun3(() => {
 });
 
 
-// git commit 
+// old JS 
+function fun9() {
+
+}
+
+// new JS / ES compliant JS 
+const fun10 = () => {
+
+}
+
+// lamdba expression 
+// () -> {}
