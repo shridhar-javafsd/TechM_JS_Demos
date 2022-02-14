@@ -129,3 +129,4 @@ let num9 = 11;
 console.log(num9 + ' is a prime number');
 console.log(num9 + ' is not a prime number');
 
+
