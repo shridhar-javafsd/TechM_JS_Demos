@@ -3,6 +3,10 @@
 class Animal {
     petName;
     color;
+    constructor(petName, color) {
+        this.petName = petName;
+        this.color = color;
+    }
 }
 
 class Dog extends Animal {
