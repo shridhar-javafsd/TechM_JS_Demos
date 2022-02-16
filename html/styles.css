@@ -1,0 +1,15 @@
+/* This is styles file */
+
+.my-style2 {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-style3 {
+    color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+#my-id-style4 {
+    color: bisque;
+}
