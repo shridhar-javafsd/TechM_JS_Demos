@@ -1,40 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- CDN BS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"></head>
-  <body>
-      <div class="container ">
-         <p class="display-4 bg-mute text-danger">FORM USING BOOTSTRAP</p>
-         <hr class="bg-warning">
-          <form class="needs-validation col-8"  >
-              <div class="form form-group col-12  ">
-                  <input type="text" class="form-control" id="Username" placeholder="Enter username"> <br>
-                  <input type="password" class="form-control" id="Password" placeholder="Password"> <br>
-                  <input type="email" class="form-control" id="email" placeholder="Email"> <br>
-                  <input type="number" class="form-control" id="Phone" placeholder="Phone" required> <br>
-                  <button type="button" class="btn btn-primary" id="submit " value="login" onclick="login()"> Submit</button>
-              </div>
-          </form>
-          <div>
-          <p class="lead"> form output</p>
-          <p id="noone"></p>
-        </div>
-      </div>
-    <script>
-const login=() =>
-{
-  alert("alert")
-    const user=document.getElementById("Username").value;
-    const password=document.getElementById("Password").value;
-    const email=document.getElementById("email").value ;
-    const phone=document.getElementById("Phone").value;
-    console.log(`${user} ${password}`);
-    document.getElementById("noone").innerHTML=`${name} hai your password ${password} and then ur number ${phone} and ur's ${email}`;
-}
-  </script>
+  <!-- Using Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+  <div class="container mt-3">
+    <p class="display-4 text-primary text-center">Bootstrap Scrollbar for Contents</p>
+    <hr />
+    <div>
+
+
+
+    </div>
+
+  </div>
+
+  </div>
+
+
+  <!-- Using Bootstrap CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
