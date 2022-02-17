@@ -1,0 +1,59 @@
+<!-- practice - https://getbootstrap.com/docs/4.6/components/forms/#form-grid -->
+<!-- https://getbootstrap.com/docs/4.6/components/forms/#form-grid -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Using Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+    <div class="container mt-3">
+        <p class="display-4 text-primary text-center">Bootstrap Forms</p>
+        <hr />
+
+        <div class="container">
+            <div class="col-4">
+                <p class="lead">Form input</p>
+                <form class="form form-group">
+                    <div>
+                        <!-- <label for="userName">Username</label> -->
+                        <input class="form-control mt-3 mb-3" type="text" id="userName" placeholder="Enter username"
+                            autofocus>
+                            <input class="form-control mt-3 mb-3" type="email" id="email" placeholder="Enter email">
+                            <input class="form-control mt-3 mb-3" type="number" id="phone" placeholder="Enter phone">
+                            <div>
+                                <select class="form-control">
+                                    <option>Select role</option>
+                                    <option>ADMIN</option>
+                                    <option>EMPLOYEE</option>
+                                    <option>CUSTOMER</option>
+                                  </select>
+                            </div>
+                            
+                            <input class="form-control mt-3 mb-3" type="password" id="password"
+                            placeholder="Enter password">
+                        <input class="form-control btn btn-primary mt-3 mb-3" type="button" id="submit" value="Login"
+                            onclick="loginFun()">
+                    </div>
+
+                </form>
+                <div>
+                    <p class="lead">Form Output</p>
+                    <p id="loginInfo"></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./09-script.js"></script>
+
+    <!-- Using Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
