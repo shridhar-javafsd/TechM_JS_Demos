@@ -44,6 +44,7 @@ const loginFun2 = () => {
 
 const showHidePassword2 = (e) => {
     e.preventDefault();
+    console.log('JS funciton invoked')
     if (document.getElementById("password2").getAttribute('type') === "text") {
         document.getElementById("password2").setAttribute('type', "password");
         document.getElementById("showHide2").innerHTML = `<i class="bi bi-eye">`;
